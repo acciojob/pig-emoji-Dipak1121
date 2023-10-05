@@ -9,6 +9,21 @@
 	position: relative;
 	
 }
+.ear{
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	border-radius: 50%;
+	background-color: #ffc0cb;
+	position: absolute;
+}
+.ear-left{
+	z-index: -1;
+}
+.ear-right{
+	right: 10px;
+	z-index: -1
+}
 /* .eye-area{
 	display: flex;
 	justify-content: space-around;
